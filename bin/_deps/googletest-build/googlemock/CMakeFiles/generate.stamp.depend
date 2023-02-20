@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-02-add-project — копия/bin/_deps/googletest-src/googlemock/CMakeLists.txt
+C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-02-add-project — копия/bin/_deps/googletest-src/googlemock/cmake/gmock.pc.in
+C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-02-add-project — копия/bin/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in
+E:/Alexander/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake
+E:/Alexander/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/CheckIncludeFile.cmake
+E:/Alexander/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/CheckLibraryExists.cmake
+E:/Alexander/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
+E:/Alexander/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FindPackageMessage.cmake
+E:/Alexander/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FindThreads.cmake

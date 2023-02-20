@@ -1,0 +1,3 @@
+C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-02-add-project — копия/bin/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-02-add-project — копия/bin/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-02-add-project — копия/bin/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir

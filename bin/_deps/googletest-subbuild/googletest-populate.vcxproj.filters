@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-subbuild\CMakeFiles\39145fa2edb7643258b7d32ce4f34685\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-subbuild\CMakeFiles\39145fa2edb7643258b7d32ce4f34685\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-subbuild\CMakeFiles\39145fa2edb7643258b7d32ce4f34685\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-subbuild\CMakeFiles\39145fa2edb7643258b7d32ce4f34685\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-subbuild\CMakeFiles\39145fa2edb7643258b7d32ce4f34685\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-subbuild\CMakeFiles\39145fa2edb7643258b7d32ce4f34685\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-subbuild\CMakeFiles\39145fa2edb7643258b7d32ce4f34685\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-subbuild\CMakeFiles\39145fa2edb7643258b7d32ce4f34685\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-subbuild\CMakeFiles\9109d5892fea5fcca14892316cbaffbf\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-subbuild\CMakeFiles\7b48bce8574ec61f28f754716646f455\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{87BB4877-2FEC-3C6A-93FA-BC9A509A5712}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

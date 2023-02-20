@@ -1,0 +1,36 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build-job:
+  stage: build
+  script:
+    - echo "Compiling the code..."
+    - echo "Compile complete."
+
+test-job:
+  stage: test
+  script:
+    - apt-get update 
+    - apt-get install -y libgtest-dev
+    - wget https://github.com/Kitware/CMake/releases/download/v3.18.0/cmake-3.18.0.tar.gz
+    - tar -zxvf cmake-3.18.0.tar.gz
+    - cd cmake-3.18.0
+    - ./bootstrap
+    - make
+    - make install
+    - cd ..
+    - mkdir Build
+    - dir
+    - cd Build
+    - cmake ..
+    - cmake --build .
+    - cd test
+    - ./ooaip_tests
+
+deploy-job:
+  stage: deploy
+  script:
+    - echo "Deploying application..."
+    - echo "Application successfully deployed."

@@ -1,0 +1,10 @@
+^C:\USERS\АЛЕКСАНДР\DESKTOP\ORDNUNG\АРХИВЫ\РЕПОЗИТОРИИ\FIT-201-02-ADD-PROJECT — КОПИЯ\TEST\CMAKELISTS.TXT
+setlocal
+E:\Alexander\cmake-3.23.0-windows-x86_64\bin\cmake.exe "-SC:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-02-add-project — копия" "-BC:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-02-add-project — копия/bin" --check-stamp-file "C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-02-add-project — копия/bin/test/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

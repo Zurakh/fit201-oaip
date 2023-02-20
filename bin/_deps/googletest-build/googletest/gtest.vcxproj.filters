@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-src\googletest\src\gtest-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-02-add-project — копия\bin\_deps\googletest-src\googletest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C42D1893-3E6B-32D5-AEEF-D47DAAD447E5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

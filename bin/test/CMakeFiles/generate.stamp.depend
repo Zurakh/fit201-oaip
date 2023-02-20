@@ -1,7 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-02-add-project — копия/test/CMakeLists.txt
-E:/Alexander/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FetchContent.cmake
-E:/Alexander/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FetchContent/CMakeLists.cmake.in
-E:/Alexander/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FindGit.cmake
-E:/Alexander/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
-E:/Alexander/cmake-3.23.0-windows-x86_64/share/cmake-3.23/Modules/FindPackageMessage.cmake

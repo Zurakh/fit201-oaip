@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440/Desktop/Ordnung/\u0410\u0440\u0445\u0438\u0432\u044b/\u0420\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438/fit-201-oaip/bin/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440/Desktop/Ordnung/\u0410\u0440\u0445\u0438\u0432\u044b/\u0420\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438/fit-201-oaip/bin/_deps/googletest-subbuild/CMakeFiles/6e74c7f08f3f31aa73d2fea9fb105565/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440/Desktop/Ordnung/\u0410\u0440\u0445\u0438\u0432\u044b/\u0420\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438/fit-201-oaip/bin/_deps/googletest-subbuild/CMakeFiles/78b21851fc5c7ea9c8a2c2f63844ac5d/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440/Desktop/Ordnung/\u0410\u0440\u0445\u0438\u0432\u044b/\u0420\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438/fit-201-oaip/bin/_deps/googletest-subbuild/CMakeFiles/51a96990bd66c8e64ef2810752696ae7/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440/Desktop/Ordnung/\u0410\u0440\u0445\u0438\u0432\u044b/\u0420\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438/fit-201-oaip/bin/_deps/googletest-subbuild/CMakeFiles/51a96990bd66c8e64ef2810752696ae7/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440/Desktop/Ordnung/\u0410\u0440\u0445\u0438\u0432\u044b/\u0420\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438/fit-201-oaip/bin/_deps/googletest-subbuild/CMakeFiles/51a96990bd66c8e64ef2810752696ae7/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440/Desktop/Ordnung/\u0410\u0440\u0445\u0438\u0432\u044b/\u0420\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438/fit-201-oaip/bin/_deps/googletest-subbuild/CMakeFiles/51a96990bd66c8e64ef2810752696ae7/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440/Desktop/Ordnung/\u0410\u0440\u0445\u0438\u0432\u044b/\u0420\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438/fit-201-oaip/bin/_deps/googletest-subbuild/CMakeFiles/51a96990bd66c8e64ef2810752696ae7/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440/Desktop/Ordnung/\u0410\u0440\u0445\u0438\u0432\u044b/\u0420\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438/fit-201-oaip/bin/_deps/googletest-subbuild/CMakeFiles/51a96990bd66c8e64ef2810752696ae7/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440/Desktop/Ordnung/\u0410\u0440\u0445\u0438\u0432\u044b/\u0420\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438/fit-201-oaip/bin/_deps/googletest-subbuild/CMakeFiles/51a96990bd66c8e64ef2810752696ae7/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440/Desktop/Ordnung/\u0410\u0440\u0445\u0438\u0432\u044b/\u0420\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438/fit-201-oaip/bin/_deps/googletest-subbuild/CMakeFiles/51a96990bd66c8e64ef2810752696ae7/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

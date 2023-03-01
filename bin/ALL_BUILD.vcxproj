@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AC690D21-49D7-3A1A-9B14-52D88EF1960A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\Alexander\cmake-3.23.0-windows-x86_64\bin\cmake.exe -SC:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip -BC:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip/bin --check-stamp-file C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeCCompiler.cmake;C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeCXXCompiler.cmake;C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeRCCompiler.cmake;C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeSystem.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeCInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeRCInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\Alexander\cmake-3.23.0-windows-x86_64\bin\cmake.exe -SC:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip -BC:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip/bin --check-stamp-file C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeCCompiler.cmake;C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeCXXCompiler.cmake;C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeRCCompiler.cmake;C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeSystem.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeCInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeRCInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\Alexander\cmake-3.23.0-windows-x86_64\bin\cmake.exe -SC:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip -BC:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip/bin --check-stamp-file C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeCCompiler.cmake;C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeCXXCompiler.cmake;C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeRCCompiler.cmake;C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeSystem.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeCInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeRCInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\Alexander\cmake-3.23.0-windows-x86_64\bin\cmake.exe -SC:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip -BC:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip/bin --check-stamp-file C:/Users/Александр/Desktop/Ordnung/Архивы/Репозитории/fit-201-oaip/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeCCompiler.cmake;C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeCXXCompiler.cmake;C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeRCCompiler.cmake;C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\3.23.0\CMakeSystem.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeCInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeCXXInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeGenericSystem.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeRCInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Compiler\MSVC-CXX.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\Windows.cmake;E:\Alexander\cmake-3.23.0-windows-x86_64\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\ZERO_CHECK.vcxproj">
+      <Project>{516D5DBB-D95E-3825-A869-A84928FA1724}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-build\googlemock\gmock.vcxproj">
+      <Project>{CFD2DBD4-F8DD-34C7-8081-1B4476BDA6F5}</Project>
+      <Name>gmock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-build\googlemock\gmock_main.vcxproj">
+      <Project>{2CE18413-0E56-3A04-A872-6144046881A5}</Project>
+      <Name>gmock_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-build\googletest\gtest.vcxproj">
+      <Project>{1B896795-7D1E-3918-B1C4-5BB48278A31D}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-build\googletest\gtest_main.vcxproj">
+      <Project>{ED0EC116-1A4D-34A8-AC67-9B82152CD08E}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\src\ooaip_lib.vcxproj">
+      <Project>{09249DFD-9B18-3796-B1D4-AAC0104C4A09}</Project>
+      <Name>ooaip_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\src\ooaip_run.vcxproj">
+      <Project>{3E7273B9-2E2B-3384-85B7-A4CE33D876E5}</Project>
+      <Name>ooaip_run</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\test\ooaip_tests.vcxproj">
+      <Project>{1BC9F8F4-E816-3825-BF71-C0C0D55B7E63}</Project>
+      <Name>ooaip_tests</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

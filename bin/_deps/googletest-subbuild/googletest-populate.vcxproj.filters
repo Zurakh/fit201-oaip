@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-subbuild\CMakeFiles\51a96990bd66c8e64ef2810752696ae7\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-subbuild\CMakeFiles\51a96990bd66c8e64ef2810752696ae7\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-subbuild\CMakeFiles\51a96990bd66c8e64ef2810752696ae7\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-subbuild\CMakeFiles\51a96990bd66c8e64ef2810752696ae7\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-subbuild\CMakeFiles\51a96990bd66c8e64ef2810752696ae7\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-subbuild\CMakeFiles\51a96990bd66c8e64ef2810752696ae7\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-subbuild\CMakeFiles\51a96990bd66c8e64ef2810752696ae7\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-subbuild\CMakeFiles\51a96990bd66c8e64ef2810752696ae7\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-subbuild\CMakeFiles\78b21851fc5c7ea9c8a2c2f63844ac5d\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-subbuild\CMakeFiles\6e74c7f08f3f31aa73d2fea9fb105565\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{673E8079-EF2D-3FBF-A375-B4544331BE39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

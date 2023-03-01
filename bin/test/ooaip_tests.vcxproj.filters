@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\test\lab1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\test\lab4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\test\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\test\misc\vectorOps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\test\tanks\MovableComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\test\misc\vectorOps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\test\tanks\mocks\MockMovable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\test\tanks\stubs\GameQueueRealization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\test\misc" />
+    <None Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\test\tanks" />
+    <None Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\test\tanks\mocks" />
+    <None Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\test\tanks\stubs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{256C2FD8-5DAE-3086-A97C-D9821652465B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7509AD98-85D8-374F-96D5-5F477D16AFD0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -19,6 +19,21 @@ std::vector<int> operator+(const std::vector<int>& vec1, const std::vector<int>&
 	return resVec;
 }
 
+std::vector<int> operator*(const std::vector<int>& vec, const int number)
+{
+	const int dim = vec.size();
+
+	std::vector<int> resVec;
+	resVec.reserve(dim);
+
+	for (int i = 0; i < dim; i++)
+	{
+		resVec.push_back(vec[i] * number);
+	}
+
+	return resVec;
+}
+
 bool operator==(const std::vector<int>& vec1, const std::vector<int>& vec2)
 {
 	const int dim = vec1.size();

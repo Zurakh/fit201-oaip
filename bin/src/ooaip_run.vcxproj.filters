@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5\UObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\lab4\lab4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5\EmptyCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5\ICommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5\IGameQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5\IUObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5\Movable\CommandEndMove.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5\Movable\CommandMove.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5\Movable\CommandRepeateByKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5\Movable\CommandStartMove.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5\Movable\IMovable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5\Movable\MacroCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5\UObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\lab4\lab4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5" />
+    <None Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\Lab5\Movable" />
+    <None Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\src\lab4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{256C2FD8-5DAE-3086-A97C-D9821652465B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7509AD98-85D8-374F-96D5-5F477D16AFD0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

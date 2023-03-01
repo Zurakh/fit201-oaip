@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Александр\Desktop\Ordnung\Архивы\Репозитории\fit-201-oaip\bin\_deps\googletest-subbuild\CMakeFiles\6e74c7f08f3f31aa73d2fea9fb105565\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{673E8079-EF2D-3FBF-A375-B4544331BE39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

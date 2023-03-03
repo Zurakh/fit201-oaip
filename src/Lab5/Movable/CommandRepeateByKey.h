@@ -11,9 +11,13 @@
 #include "IInjectable.h"
 #include "CommandInjectable.h"
 #include <any>
+#include <concepts>
 
+//template <ICommand* T>
+template <typename T>
 class CommandRepeateByKey: public ICommand
 {
+    //typedef typename T::IsDerivedFromIFoo IFooGuard;
 private:
     std::string _key;
     IUObject& _object;
@@ -23,6 +27,6 @@ public:
     _key(key), _object(object), _gameQueue(gameQueue){}
     void execute()
 	{
-        _gameQueue.push(std::any_cast<ICommand*>(_object.getProperty(_key)));
+        _gameQueue.push(std::any_cast<T>(_object.getProperty(_key)));
     }
 };

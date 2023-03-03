@@ -11,6 +11,7 @@
 #include <Lab5/Movable/MacroCommand.h>
 #include <Lab5/Movable/CommandRepeateByKey.h>
 #include <Lab5/Movable/CommandInjectable.h>
+#include <Lab5/Movable/IInjectable.h>
 #include <any>
 
 template <typename T>
@@ -51,7 +52,7 @@ private:
 	IMovable<T>& _moveAdapt;
 	std::vector<T>& _velocity;
 	//std::vector<T> _zeros;
-	IInjectable* inj;
+	//IInjectable* inj;
 
 public:
 	//CommandInjectable& _injCommand;
@@ -154,20 +155,22 @@ public:
 
 
 		//_gameQueue.push(static_cast<ICommand*>(injCommand));
+		//inj = new CommandInjectable;
 
-		_object.setProperty("moveCommand", static_cast<ICommand*>(new CommandInjectable));
+		//_object.setProperty("moveCommand", static_cast<IInjectable*>(inj));
+		_object.setProperty("moveCommand", static_cast<IInjectable*>(new CommandInjectable));
 
-		std::any_cast<CommandInjectable*>(_object.getProperty())->inject(
+		std::any_cast<IInjectable*>(_object.getProperty("moveCommand"))->inject(
 			new MacroCommand(
 				std::vector<ICommand*>{
 					new CommandMove<T>(_moveAdapt),
-					new CommandRepeateByKey("moveCommand", _object, _gameQueue)
+					new CommandRepeateByKey<IInjectable*>("moveCommand", _object, _gameQueue)
 				}
 			)
 		);
 
 
-		_gameQueue.push(std::any_cast<ICommand*>(_object.getProperty("moveCommand")));
+		_gameQueue.push(std::any_cast<IInjectable*>(_object.getProperty("moveCommand")));
 		
 		
 
